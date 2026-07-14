@@ -2,6 +2,10 @@
 
 An interactive, fully client-side sizing calculator for [Qdrant](https://qdrant.tech) vector database collections. Estimate RAM, SSD, and node requirements for any collection configuration — and understand *why* each component consumes what it does.
 
+> **Disclaimer:** This is an open-source community project. It is **not** affiliated with, endorsed by, or provided by the official Qdrant team.
+
+**Live app:** [qdrant-sizing-tool.vercel.app](https://qdrant-sizing-tool.vercel.app/)
+
 No backend, no API calls: all calculations run instantly in the browser, so the tool works offline and can be embedded in a documentation portal.
 
 ## Features

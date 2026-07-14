@@ -4,11 +4,51 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qdrant Sizing Tool — RAM, Disk & Node Capacity Calculator</title>
     <meta
       name="description"
-      content="Interactive client-side sizing calculator for Qdrant vector database collections. Estimate RAM, disk, and node requirements."
+      content="Free open-source sizing calculator for the Qdrant vector database. Estimate RAM, SSD storage and node count for any collection: HNSW graph, quantization, payload indexes, replication. Community tool, not affiliated with Qdrant."
     />
-    <title>Qdrant Sizing Tool</title>
+    <meta
+      name="keywords"
+      content="qdrant, vector database, sizing calculator, capacity planning, RAM estimation, HNSW, binary quantization, vector search, infrastructure sizing"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Open-source community project" />
+    <link rel="canonical" href="https://qdrant-sizing-tool.vercel.app/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://qdrant-sizing-tool.vercel.app/" />
+    <meta property="og:title" content="Qdrant Sizing Tool — RAM, Disk & Node Capacity Calculator" />
+    <meta
+      property="og:description"
+      content="Free open-source sizing calculator for Qdrant collections. Estimate RAM, SSD and node requirements with traceable formulas. Not an official Qdrant product."
+    />
+    <meta property="og:site_name" content="Qdrant Sizing Tool (unofficial)" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Qdrant Sizing Tool — RAM, Disk & Node Capacity Calculator" />
+    <meta
+      name="twitter:description"
+      content="Free open-source sizing calculator for Qdrant collections. Estimate RAM, SSD and node requirements with traceable formulas. Not an official Qdrant product."
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Qdrant Sizing Tool",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Any (browser-based)",
+        "description": "Open-source, client-side sizing calculator that estimates RAM, SSD storage and node count for Qdrant vector database collections. Community project, not affiliated with or endorsed by Qdrant.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "isAccessibleForFree": true,
+        "url": "https://qdrant-sizing-tool.vercel.app/",
+        "sameAs": "https://github.com/kailash360/qdrant-sizing-tool"
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
